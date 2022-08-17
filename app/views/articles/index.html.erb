@@ -1,0 +1,8 @@
+
+<div class="container">
+  <ul class="inline mb-6">
+  <% @articles.each do |article| %>
+  <li class="title"><%= link_to article.title, article_path(article) %>
+    <li><%= article.content %></li>
+  </li><% end %></ul>
+</div>

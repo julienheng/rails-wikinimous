@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+a {
+  text-decoration: none;
+}
+
+.navbar.mb-5.sticky-top {
+  margin: 20px 40px;
+}
+
+
+
+
+.title {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+ .inline {
+  list-style-type: none;
+  text-align: left;
+ }
